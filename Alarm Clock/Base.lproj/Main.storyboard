@@ -745,9 +745,9 @@
                                 </buttonCell>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-EM-0h9">
-                                <rect key="frame" x="99" y="22" width="87" height="17"/>
+                                <rect key="frame" x="96" y="23" width="90" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Wakeup time:" id="94S-2i-es0">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Wake up time:" id="94S-2i-es0">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

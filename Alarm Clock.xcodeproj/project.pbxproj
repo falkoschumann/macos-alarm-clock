@@ -48,6 +48,7 @@
 		CCECDB6321AACB0000265AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCECDB6F21AAEF4500265AE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CCECDB7121AAF0CD00265AE2 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		CCECDB7321AAF6CC00265AE2 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 			children = (
 				CCECDB6F21AAEF4500265AE2 /* README.md */,
 				CCECDB7121AAF0CD00265AE2 /* LICENSE.txt */,
+				CCECDB7321AAF6CC00265AE2 /* CONTRIBUTING.md */,
 				CCECDB4221AACAFA00265AE2 /* Alarm Clock */,
 				CCECDB5521AACB0000265AE2 /* Alarm ClockTests */,
 				CCECDB6021AACB0000265AE2 /* Alarm ClockUITests */,
