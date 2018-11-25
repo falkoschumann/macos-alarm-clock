@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */; };
+		CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB4521AACAFA00265AE2 /* ViewController.swift */; };
+		CCECDB4821AACAFF00265AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB4721AACAFF00265AE2 /* Assets.xcassets */; };
+		CCECDB4B21AACAFF00265AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB4921AACAFF00265AE2 /* Main.storyboard */; };
+		CCECDB5721AACB0000265AE2 /* Alarm_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB5621AACB0000265AE2 /* Alarm_ClockTests.swift */; };
+		CCECDB6221AACB0000265AE2 /* Alarm_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB6121AACB0000265AE2 /* Alarm_ClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCECDB5321AACB0000265AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCECDB3821AACAFA00265AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCECDB3F21AACAFA00265AE2;
+			remoteInfo = "Alarm Clock";
+		};
+		CCECDB5E21AACB0000265AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCECDB3821AACAFA00265AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCECDB3F21AACAFA00265AE2;
+			remoteInfo = "Alarm Clock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCECDB4021AACAFA00265AE2 /* Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCECDB4521AACAFA00265AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCECDB4721AACAFF00265AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCECDB4A21AACAFF00265AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCECDB4C21AACB0000265AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCECDB4D21AACB0000265AE2 /* Alarm_Clock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alarm_Clock.entitlements; sourceTree = "<group>"; };
+		CCECDB5221AACB0000265AE2 /* Alarm ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECDB5621AACB0000265AE2 /* Alarm_ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_ClockTests.swift; sourceTree = "<group>"; };
+		CCECDB5821AACB0000265AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCECDB5D21AACB0000265AE2 /* Alarm ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm ClockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECDB6121AACB0000265AE2 /* Alarm_ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm_ClockUITests.swift; sourceTree = "<group>"; };
+		CCECDB6321AACB0000265AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCECDB3D21AACAFA00265AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB4F21AACB0000265AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB5A21AACB0000265AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCECDB3721AACAFA00265AE2 = {
+			isa = PBXGroup;
+			children = (
+				CCECDB4221AACAFA00265AE2 /* Alarm Clock */,
+				CCECDB5521AACB0000265AE2 /* Alarm ClockTests */,
+				CCECDB6021AACB0000265AE2 /* Alarm ClockUITests */,
+				CCECDB4121AACAFA00265AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCECDB4121AACAFA00265AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCECDB4021AACAFA00265AE2 /* Alarm Clock.app */,
+				CCECDB5221AACB0000265AE2 /* Alarm ClockTests.xctest */,
+				CCECDB5D21AACB0000265AE2 /* Alarm ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCECDB4221AACAFA00265AE2 /* Alarm Clock */ = {
+			isa = PBXGroup;
+			children = (
+				CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */,
+				CCECDB4521AACAFA00265AE2 /* ViewController.swift */,
+				CCECDB4721AACAFF00265AE2 /* Assets.xcassets */,
+				CCECDB4921AACAFF00265AE2 /* Main.storyboard */,
+				CCECDB4C21AACB0000265AE2 /* Info.plist */,
+				CCECDB4D21AACB0000265AE2 /* Alarm_Clock.entitlements */,
+			);
+			path = "Alarm Clock";
+			sourceTree = "<group>";
+		};
+		CCECDB5521AACB0000265AE2 /* Alarm ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCECDB5621AACB0000265AE2 /* Alarm_ClockTests.swift */,
+				CCECDB5821AACB0000265AE2 /* Info.plist */,
+			);
+			path = "Alarm ClockTests";
+			sourceTree = "<group>";
+		};
+		CCECDB6021AACB0000265AE2 /* Alarm ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCECDB6121AACB0000265AE2 /* Alarm_ClockUITests.swift */,
+				CCECDB6321AACB0000265AE2 /* Info.plist */,
+			);
+			path = "Alarm ClockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCECDB3F21AACAFA00265AE2 /* Alarm Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECDB6621AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm Clock" */;
+			buildPhases = (
+				CCECDB3C21AACAFA00265AE2 /* Sources */,
+				CCECDB3D21AACAFA00265AE2 /* Frameworks */,
+				CCECDB3E21AACAFA00265AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alarm Clock";
+			productName = "Alarm Clock";
+			productReference = CCECDB4021AACAFA00265AE2 /* Alarm Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCECDB5121AACB0000265AE2 /* Alarm ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECDB6921AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm ClockTests" */;
+			buildPhases = (
+				CCECDB4E21AACB0000265AE2 /* Sources */,
+				CCECDB4F21AACB0000265AE2 /* Frameworks */,
+				CCECDB5021AACB0000265AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCECDB5421AACB0000265AE2 /* PBXTargetDependency */,
+			);
+			name = "Alarm ClockTests";
+			productName = "Alarm ClockTests";
+			productReference = CCECDB5221AACB0000265AE2 /* Alarm ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCECDB5C21AACB0000265AE2 /* Alarm ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECDB6C21AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm ClockUITests" */;
+			buildPhases = (
+				CCECDB5921AACB0000265AE2 /* Sources */,
+				CCECDB5A21AACB0000265AE2 /* Frameworks */,
+				CCECDB5B21AACB0000265AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCECDB5F21AACB0000265AE2 /* PBXTargetDependency */,
+			);
+			name = "Alarm ClockUITests";
+			productName = "Alarm ClockUITests";
+			productReference = CCECDB5D21AACB0000265AE2 /* Alarm ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCECDB3821AACAFA00265AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Falko Schumann";
+				TargetAttributes = {
+					CCECDB3F21AACAFA00265AE2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CCECDB5121AACB0000265AE2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CCECDB3F21AACAFA00265AE2;
+					};
+					CCECDB5C21AACB0000265AE2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CCECDB3F21AACAFA00265AE2;
+					};
+				};
+			};
+			buildConfigurationList = CCECDB3B21AACAFA00265AE2 /* Build configuration list for PBXProject "Alarm Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCECDB3721AACAFA00265AE2;
+			productRefGroup = CCECDB4121AACAFA00265AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCECDB3F21AACAFA00265AE2 /* Alarm Clock */,
+				CCECDB5121AACB0000265AE2 /* Alarm ClockTests */,
+				CCECDB5C21AACB0000265AE2 /* Alarm ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCECDB3E21AACAFA00265AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECDB4821AACAFF00265AE2 /* Assets.xcassets in Resources */,
+				CCECDB4B21AACAFF00265AE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB5021AACB0000265AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB5B21AACB0000265AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCECDB3C21AACAFA00265AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */,
+				CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB4E21AACB0000265AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECDB5721AACB0000265AE2 /* Alarm_ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECDB5921AACB0000265AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECDB6221AACB0000265AE2 /* Alarm_ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCECDB5421AACB0000265AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCECDB3F21AACAFA00265AE2 /* Alarm Clock */;
+			targetProxy = CCECDB5321AACB0000265AE2 /* PBXContainerItemProxy */;
+		};
+		CCECDB5F21AACB0000265AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCECDB3F21AACAFA00265AE2 /* Alarm Clock */;
+			targetProxy = CCECDB5E21AACB0000265AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCECDB4921AACAFF00265AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCECDB4A21AACAFF00265AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCECDB6421AACB0000265AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCECDB6521AACB0000265AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CCECDB6721AACB0000265AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alarm Clock/Alarm_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		CCECDB6821AACB0000265AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Alarm Clock/Alarm_Clock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm Clock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		CCECDB6A21AACB0000265AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm Clock.app/Contents/MacOS/Alarm Clock";
+			};
+			name = Debug;
+		};
+		CCECDB6B21AACB0000265AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm ClockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-ClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm Clock.app/Contents/MacOS/Alarm Clock";
+			};
+			name = Release;
+		};
+		CCECDB6D21AACB0000265AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Alarm Clock";
+			};
+			name = Debug;
+		};
+		CCECDB6E21AACB0000265AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QC6EN37P56;
+				INFOPLIST_FILE = "Alarm ClockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.muspellheim.Alarm-ClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Alarm Clock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCECDB3B21AACAFA00265AE2 /* Build configuration list for PBXProject "Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECDB6421AACB0000265AE2 /* Debug */,
+				CCECDB6521AACB0000265AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECDB6621AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECDB6721AACB0000265AE2 /* Debug */,
+				CCECDB6821AACB0000265AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECDB6921AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECDB6A21AACB0000265AE2 /* Debug */,
+				CCECDB6B21AACB0000265AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECDB6C21AACB0000265AE2 /* Build configuration list for PBXNativeTarget "Alarm ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECDB6D21AACB0000265AE2 /* Debug */,
+				CCECDB6E21AACB0000265AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCECDB3821AACAFA00265AE2 /* Project object */;
+}
