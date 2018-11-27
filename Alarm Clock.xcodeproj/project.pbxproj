@@ -15,6 +15,7 @@
 		CCECDB6221AACB0000265AE2 /* Alarm_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB6121AACB0000265AE2 /* Alarm_ClockUITests.swift */; };
 		CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7621AC67EB00265AE2 /* Watchdog.swift */; };
 		CCECDB7921AC821200265AE2 /* WatchdogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7821AC821200265AE2 /* WatchdogTests.swift */; };
+		CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7C21ADD5BA00265AE2 /* Clock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CCECDB7321AAF6CC00265AE2 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		CCECDB7621AC67EB00265AE2 /* Watchdog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchdog.swift; sourceTree = "<group>"; };
 		CCECDB7821AC821200265AE2 /* WatchdogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchdogTests.swift; sourceTree = "<group>"; };
+		CCECDB7C21ADD5BA00265AE2 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				CCECDB7521AC67D000265AE2 /* Domain */,
+				CCECDB7A21ADD53700265AE2 /* Providers */,
+				CCECDB7B21ADD54E00265AE2 /* Portals */,
 				CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */,
 				CCECDB4521AACAFA00265AE2 /* ViewController.swift */,
 				CCECDB4721AACAFF00265AE2 /* Assets.xcassets */,
@@ -142,6 +146,21 @@
 				CCECDB7621AC67EB00265AE2 /* Watchdog.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		CCECDB7A21ADD53700265AE2 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		CCECDB7B21ADD54E00265AE2 /* Portals */ = {
+			isa = PBXGroup;
+			children = (
+				CCECDB7C21ADD5BA00265AE2 /* Clock.swift */,
+			);
+			path = Portals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +295,7 @@
 			files = (
 				CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */,
 				CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */,
+				CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */,
 				CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
