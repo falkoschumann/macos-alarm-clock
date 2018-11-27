@@ -60,8 +60,6 @@ class WatchdogTests: XCTestCase {
         
         sutDelegate.remainingTime = nil
         sutDelegate.wakeUpTimeDiscovered = false
-        
-        sut.startWatchingFor(wakeUpTime: formatter.date(from: "2015-01-01T10:00:00+01:00")!)
         sut.check(currentTime: formatter.date(from: "2015-01-01T10:01:10+01:00")!)
         
         XCTAssertNil(sutDelegate.remainingTime)
