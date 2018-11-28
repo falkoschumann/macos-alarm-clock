@@ -16,6 +16,8 @@
 		CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7621AC67EB00265AE2 /* Watchdog.swift */; };
 		CCECDB7921AC821200265AE2 /* WatchdogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7821AC821200265AE2 /* WatchdogTests.swift */; };
 		CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7C21ADD5BA00265AE2 /* Clock.swift */; };
+		CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7E21AF326800265AE2 /* AlarmBell.swift */; };
+		CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8021AF333600265AE2 /* Alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		CCECDB7621AC67EB00265AE2 /* Watchdog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchdog.swift; sourceTree = "<group>"; };
 		CCECDB7821AC821200265AE2 /* WatchdogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchdogTests.swift; sourceTree = "<group>"; };
 		CCECDB7C21ADD5BA00265AE2 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		CCECDB7E21AF326800265AE2 /* AlarmBell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmBell.swift; sourceTree = "<group>"; };
+		CCECDB8021AF333600265AE2 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		CCECDB7A21ADD53700265AE2 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				CCECDB8021AF333600265AE2 /* Alarm.mp3 */,
+				CCECDB7E21AF326800265AE2 /* AlarmBell.swift */,
 			);
 			path = Providers;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */,
 				CCECDB4821AACAFF00265AE2 /* Assets.xcassets in Resources */,
 				CCECDB4B21AACAFF00265AE2 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +302,7 @@
 			files = (
 				CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */,
 				CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */,
+				CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */,
 				CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */,
 				CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */,
 			);
