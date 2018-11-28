@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */; };
-		CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB4521AACAFA00265AE2 /* ViewController.swift */; };
 		CCECDB4821AACAFF00265AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB4721AACAFF00265AE2 /* Assets.xcassets */; };
-		CCECDB4B21AACAFF00265AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB4921AACAFF00265AE2 /* Main.storyboard */; };
 		CCECDB5721AACB0000265AE2 /* Alarm_ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB5621AACB0000265AE2 /* Alarm_ClockTests.swift */; };
 		CCECDB6221AACB0000265AE2 /* Alarm_ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB6121AACB0000265AE2 /* Alarm_ClockUITests.swift */; };
 		CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7621AC67EB00265AE2 /* Watchdog.swift */; };
@@ -18,6 +16,7 @@
 		CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7C21ADD5BA00265AE2 /* Clock.swift */; };
 		CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7E21AF326800265AE2 /* AlarmBell.swift */; };
 		CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8021AF333600265AE2 /* Alarm.mp3 */; };
+		CCECDB8421AF385700265AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8221AF385700265AE2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +39,7 @@
 /* Begin PBXFileReference section */
 		CCECDB4021AACAFA00265AE2 /* Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCECDB4521AACAFA00265AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCECDB4721AACAFF00265AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCECDB4A21AACAFF00265AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCECDB4C21AACB0000265AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCECDB4D21AACB0000265AE2 /* Alarm_Clock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alarm_Clock.entitlements; sourceTree = "<group>"; };
 		CCECDB5221AACB0000265AE2 /* Alarm ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm ClockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +56,7 @@
 		CCECDB7C21ADD5BA00265AE2 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		CCECDB7E21AF326800265AE2 /* AlarmBell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmBell.swift; sourceTree = "<group>"; };
 		CCECDB8021AF333600265AE2 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
+		CCECDB8321AF385700265AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +114,7 @@
 				CCECDB7A21ADD53700265AE2 /* Providers */,
 				CCECDB7B21ADD54E00265AE2 /* Portals */,
 				CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */,
-				CCECDB4521AACAFA00265AE2 /* ViewController.swift */,
 				CCECDB4721AACAFF00265AE2 /* Assets.xcassets */,
-				CCECDB4921AACAFF00265AE2 /* Main.storyboard */,
 				CCECDB4C21AACB0000265AE2 /* Info.plist */,
 				CCECDB4D21AACB0000265AE2 /* Alarm_Clock.entitlements */,
 			);
@@ -164,6 +160,7 @@
 		CCECDB7B21ADD54E00265AE2 /* Portals */ = {
 			isa = PBXGroup;
 			children = (
+				CCECDB8221AF385700265AE2 /* Main.storyboard */,
 				CCECDB7C21ADD5BA00265AE2 /* Clock.swift */,
 			);
 			path = Portals;
@@ -273,9 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCECDB8421AF385700265AE2 /* Main.storyboard in Resources */,
 				CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */,
 				CCECDB4821AACAFF00265AE2 /* Assets.xcassets in Resources */,
-				CCECDB4B21AACAFF00265AE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCECDB4621AACAFA00265AE2 /* ViewController.swift in Sources */,
 				CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */,
 				CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */,
 				CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */,
@@ -341,10 +337,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CCECDB4921AACAFF00265AE2 /* Main.storyboard */ = {
+		CCECDB8221AF385700265AE2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCECDB4A21AACAFF00265AE2 /* Base */,
+				CCECDB8321AF385700265AE2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
