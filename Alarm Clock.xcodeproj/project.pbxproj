@@ -18,6 +18,7 @@
 		CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8021AF333600265AE2 /* Alarm.mp3 */; };
 		CCECDB8421AF385700265AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8221AF385700265AE2 /* Main.storyboard */; };
 		CCECDB8621B053A700265AE2 /* AlarmClockDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB8521B053A700265AE2 /* AlarmClockDialogController.swift */; };
+		CCECDB8821B0868000265AE2 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB8721B0868000265AE2 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CCECDB8021AF333600265AE2 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
 		CCECDB8321AF385700265AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCECDB8521B053A700265AE2 /* AlarmClockDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockDialogController.swift; sourceTree = "<group>"; };
+		CCECDB8721B0868000265AE2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				CCECDB7521AC67D000265AE2 /* Domain */,
-				CCECDB7A21ADD53700265AE2 /* Providers */,
 				CCECDB7B21ADD54E00265AE2 /* Portals */,
+				CCECDB7A21ADD53700265AE2 /* Providers */,
 				CCECDB4321AACAFA00265AE2 /* AppDelegate.swift */,
+				CCECDB8721B0868000265AE2 /* App.swift */,
 				CCECDB4721AACAFF00265AE2 /* Assets.xcassets */,
 				CCECDB4C21AACB0000265AE2 /* Info.plist */,
 				CCECDB4D21AACB0000265AE2 /* Alarm_Clock.entitlements */,
@@ -303,6 +306,7 @@
 				CCECDB8621B053A700265AE2 /* AlarmClockDialogController.swift in Sources */,
 				CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */,
 				CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */,
+				CCECDB8821B0868000265AE2 /* App.swift in Sources */,
 				CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */,
 				CCECDB4421AACAFA00265AE2 /* AppDelegate.swift in Sources */,
 			);

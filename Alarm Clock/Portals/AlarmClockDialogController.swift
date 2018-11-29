@@ -29,9 +29,11 @@ class AlarmClockDialogController: NSViewController {
                 remainingTimeLabel.stringValue = ""
                 
                 let formatter = DateFormatter()
+                formatter.defaultDate = Date()
                 formatter.dateStyle = .none
-                formatter.timeStyle = .medium
-                delegate?.onStartRequested(wakeUpTime: formatter.date(from: wakeUpTimeTextField.stringValue)!)
+                formatter.timeStyle = .short
+                let wakeUpTime = formatter.date(from: wakeUpTimeTextField.stringValue)
+                delegate?.onStartRequested(wakeUpTime: wakeUpTime!)
             }
         } else {
             remainingTimeLabel.isHidden = true
@@ -48,7 +50,7 @@ class AlarmClockDialogController: NSViewController {
     func updateCurrentTime(_ time: Date) {
         let formatter = DateFormatter()
         formatter.dateStyle = .none
-        formatter.timeStyle = .long
+        formatter.timeStyle = .medium
         currentTimeLabel.stringValue = formatter.string(from: time)
     }
     
@@ -56,7 +58,7 @@ class AlarmClockDialogController: NSViewController {
         let t = Date(timeIntervalSinceReferenceDate: time)
         let formatter = DateFormatter()
         formatter.dateStyle = .none
-        formatter.timeStyle = .long
+        formatter.timeStyle = .medium
         formatter.timeZone = TimeZone(identifier: "UTC")
         remainingTimeLabel.stringValue = formatter.string(from: t)
     }
