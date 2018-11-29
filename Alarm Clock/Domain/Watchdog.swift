@@ -9,8 +9,8 @@
 import Foundation
 
 protocol WatchdogDelegate {
-    func onRemainingTime(_ watchdog: Watchdog, remainingTime: TimeInterval)
-    func onWakeUpTimeDiscovered(_ watchdog: Watchdog)
+    func onRemainingTime(remainingTime: TimeInterval)
+    func onWakeUpTimeDiscovered()
 }
 
 class Watchdog {
@@ -37,10 +37,10 @@ class Watchdog {
         let remainingTime = wakeUpTime!.timeIntervalSince(currentTime)
         if remainingTime <= 0 {
             watching = false
-            delegate?.onRemainingTime(self, remainingTime: TimeInterval(0))
-            delegate?.onWakeUpTimeDiscovered(self)
+            delegate?.onRemainingTime(remainingTime: TimeInterval(0))
+            delegate?.onWakeUpTimeDiscovered()
         } else {
-            delegate?.onRemainingTime(self, remainingTime: remainingTime)
+            delegate?.onRemainingTime(remainingTime: remainingTime)
         }
     }
     

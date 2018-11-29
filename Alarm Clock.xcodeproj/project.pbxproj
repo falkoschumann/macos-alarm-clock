@@ -17,6 +17,7 @@
 		CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB7E21AF326800265AE2 /* AlarmBell.swift */; };
 		CCECDB8121AF333600265AE2 /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8021AF333600265AE2 /* Alarm.mp3 */; };
 		CCECDB8421AF385700265AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECDB8221AF385700265AE2 /* Main.storyboard */; };
+		CCECDB8621B053A700265AE2 /* AlarmClockDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECDB8521B053A700265AE2 /* AlarmClockDialogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CCECDB7E21AF326800265AE2 /* AlarmBell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmBell.swift; sourceTree = "<group>"; };
 		CCECDB8021AF333600265AE2 /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alarm.mp3; sourceTree = "<group>"; };
 		CCECDB8321AF385700265AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCECDB8521B053A700265AE2 /* AlarmClockDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockDialogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				CCECDB8221AF385700265AE2 /* Main.storyboard */,
 				CCECDB7C21ADD5BA00265AE2 /* Clock.swift */,
+				CCECDB8521B053A700265AE2 /* AlarmClockDialogController.swift */,
 			);
 			path = Portals;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCECDB8621B053A700265AE2 /* AlarmClockDialogController.swift in Sources */,
 				CCECDB7721AC67EB00265AE2 /* Watchdog.swift in Sources */,
 				CCECDB7F21AF326800265AE2 /* AlarmBell.swift in Sources */,
 				CCECDB7D21ADD5BA00265AE2 /* Clock.swift in Sources */,

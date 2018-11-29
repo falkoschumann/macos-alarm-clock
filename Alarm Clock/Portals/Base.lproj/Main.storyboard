@@ -701,10 +701,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Alarm Clock Dialog Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="AlarmClockDialogController" customModule="Alarm_Clock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -743,6 +743,9 @@
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="startStopButtonClicked:" target="XfG-lQ-9wD" id="mIk-Rm-pbu"/>
+                                </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffv-EM-0h9">
                                 <rect key="frame" x="96" y="23" width="90" height="17"/>
@@ -755,6 +758,12 @@
                             </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="okP-bU-ZKd" id="FQp-nQ-KjS"/>
+                        <outlet property="remainingTimeLabel" destination="fl1-9L-B8y" id="oQ1-Ji-DJf"/>
+                        <outlet property="startStopButton" destination="3nf-GC-fDr" id="8xB-hB-UMG"/>
+                        <outlet property="wakeUpTimeTextField" destination="Fxz-61-nh2" id="g81-3I-yI3"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
